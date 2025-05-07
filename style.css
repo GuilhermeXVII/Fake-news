@@ -1,0 +1,117 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 3rem;
+    color: #fff;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+#placaU, #placaD, #placaT {
+    background: rgba(255, 255, 255, 0.2);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease-in-out;
+}
+
+#placaU:hover, #placaD:hover, #placaT:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+#placaU p, #placaT p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+#placaD ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#placaD li {
+    font-style: italic;
+    font-size: 1.5rem;
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image, #image2 {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image:hover, #image2:hover {
+    transform: scale(1.05);
+}
+
+#placaT h2 {
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    font-size: 2rem;
+    margin: 20px 0;
+    padding: 10px;
+    border-bottom: 2px solid #fff;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+#placaT h2:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    #placaU, #placaD, #placaT {
+        width: 90%;
+    }
+    .image, #image2 {
+        width: 80%;
+    }
+    #placaU p, #placaT p, #placaD li {
+        font-size: 1.2rem;
+    }
+    #placaT h2 {
+        font-size: 1.5rem;
+    }
+}
