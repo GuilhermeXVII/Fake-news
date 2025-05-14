@@ -1,0 +1,1 @@
+Essa página aborda o combate à disseminação de fake news e o uso indevido de imagens na internet. Com conteúdo informativo e elementos visuais, a página tem como objetivo conscientizar os usuários sobre os perigos da desinformação e promover o uso responsável das mídias digitais.
